@@ -1,0 +1,25 @@
+{
+    "name": "picory/dynahtml",
+    "description": "Dynamic HTML bulider",
+    "type": "library",
+    "require": {
+        "ressio/pharse": "^0.2.0"
+    },
+    "authors": [
+        {
+            "name": "picory",
+            "email": "websniepr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Picory\\Dynahtml\\DynahtmlServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": { "Picory\\Dynahtml\\":  "src/" }
+    }
+}

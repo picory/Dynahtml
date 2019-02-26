@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ac1f7717a8329a7b99ce4531feb68808",
+    "packages": [
+        {
+            "name": "ressio/pharse",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ressio/pharse.git",
+                "reference": "51c87b3eba0a5e7871ce9bd7a90fe020a0729d9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ressio/pharse/zipball/51c87b3eba0a5e7871ce9bd7a90fe020a0729d9a",
+                "reference": "51c87b3eba0a5e7871ce9bd7a90fe020a0729d9a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL",
+                "Artistic"
+            ],
+            "authors": [
+                {
+                    "name": "RESS.IO Team",
+                    "homepage": "https://github.com/ressio/pharse"
+                }
+            ],
+            "description": "Fastest PHP HTML Parser",
+            "homepage": "https://github.com/ressio/pharse",
+            "keywords": [
+                "HTML5",
+                "dom",
+                "html",
+                "parser",
+                "php"
+            ],
+            "time": "2015-03-24T12:48:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
