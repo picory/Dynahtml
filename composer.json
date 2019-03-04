@@ -20,6 +20,13 @@
         }
     },
     "autoload": {
-        "psr-4": { "Picory\\Dynahtml\\":  "src/" }
+        "psr-4": {
+            "Picory\\Dynahtml\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Picory\\Dynahtml\\Test\\": "tests"
+        }
     }
 }
