@@ -1,7 +1,7 @@
 <?php
 /**
  * Class Controller
- * @package Picory\Dynahtml
+ * @package Picory\View
  * Author: picory <websniper@gmail.com>
  * Since: 2018-12-23
  * Version: 0.1
