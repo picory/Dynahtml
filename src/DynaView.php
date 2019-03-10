@@ -11,12 +11,13 @@ namespace Picory\Dynahtml;
 use Illuminate\Http\Request;
 use Picory\Dynahtml\FileSystem\FileSystem;
 
-class View
+class DynaView
 {
     public $request;
     public $fileSystem;
 
-    public $path;
+    public $cachePath;
+    public $htmlPath;
 
     public $params = [];
 
@@ -29,6 +30,6 @@ class View
     public function make()
     {
         // 원본 디자인 파일 가져오기
-        dd($this->fileSystem->get());
+        $source = $this->fileSystem->get();
     }
 }

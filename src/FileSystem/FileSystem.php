@@ -19,8 +19,19 @@ class FileSystem
     {
         $this->cache = new Cache($file);
         $this->source = $file;
+        $this->designPath = $this->webPath($file);
     }
 
+
+    public function webPath($file)
+    {
+        dd($file);
+    }
+
+    public function originalPath($path)
+    {
+
+    }
     public function exists($path)
     {
         return file_exists($path);

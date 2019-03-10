@@ -1,11 +1,11 @@
 <?php
 return [
     'providers' => [
-        # Picory View
+        # Picory DynaView
         Picory\Dynahtml\DynahtmlServiceProvider::class,
     ],
     'aliases' => [
-        # Picory View
-        'View' => Picory\Dynahtml\DynahtmlServiceProvider::class
+        # Picory DynaView
+        'DynaView' => Picory\Dynahtml\DynahtmlServiceProvider::class
     ],
 ];

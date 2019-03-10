@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Picory\Dynahtml\View;
+use Picory\Dynahtml\DynaView;
 
 class DesignController extends Controller
 {
@@ -14,7 +14,7 @@ class DesignController extends Controller
      */
     public function view(Request $request)
     {
-        $factory = new View();
+        $factory = new DynaView();
 
         $content = $factory->make($request);
 

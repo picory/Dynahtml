@@ -1,7 +1,7 @@
 <?php
 /**
  * Class Builder
- * @package Picory\View
+ * @package Picory\DynaView
  * Author: picory <websniper@gmail.com>
  * Since: 2018-12-23
  * Version: 0.1
